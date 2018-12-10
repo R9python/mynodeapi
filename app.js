@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Mock service with nodejs!'))
 
 app.listen(port, () => console.log(`Server startup success, listening on port ${port}!`))
 
